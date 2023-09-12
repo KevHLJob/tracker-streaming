@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
-import FormAddMoney from './components/FormaddMoney'
+import FormAddMoney from './components/FormAddMoney'
 import Header from './components/Header'
 import MainControl from './components/MainControl';
 

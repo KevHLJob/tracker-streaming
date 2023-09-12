@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FormAddPlatorm = ({ setType,
+const FormAddPlatform = ({ setType,
   setPrice,
   type,
   price,
@@ -80,4 +80,4 @@ const FormAddPlatorm = ({ setType,
   );
 }
 
-export default FormAddPlatorm;
+export default FormAddPlatform;
