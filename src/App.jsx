@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import './App.css'
-import FormaddMoney from './components/FormaddMoney'
+import FormAddMoney from './components/FormaddMoney'
 import Header from './components/Header'
 import MainControl from './components/MainControl';
 
@@ -11,7 +11,7 @@ function App() {
 
   const component = isValid
             ?<MainControl count={count} />
-            :<FormaddMoney setCount={setCount} setIsValid={setIsValid} />
+            :<FormAddMoney setCount={setCount} setIsValid={setIsValid} />
 
 
 
