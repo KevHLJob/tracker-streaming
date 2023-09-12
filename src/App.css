@@ -8,7 +8,7 @@ body{
   width: 60%;
   margin: 0 auto;
   text-align: center;
-  background-image: linear-gradient(130deg, rgb(33, 150, 243), rgb(103, 214, 205));
+  background-image: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
   box-shadow: rgb(33 150 243 / 68%) 0px 0px 1rem 2px;
   border-radius: 10px;
   margin-top: 3%;
@@ -160,6 +160,7 @@ p.author a {
   color: #000;
 }
 
+/* mobile device */
 @media screen and (min-width: 340px) and (max-width: 600px){
 input{
   width: 5rem;

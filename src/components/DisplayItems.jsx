@@ -3,7 +3,7 @@ import SingleItem from "./SingleItem";
 const DisplayItems = ({ subs, eliminarItem, editItem }) => {
     return ( 
         <>
-            <h2>Suscripciones</h2>
+            <h2>Subscripciones</h2>
             {
                 subs.map(item => (
                     <SingleItem 

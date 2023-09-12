@@ -55,7 +55,7 @@ const FormAddPlatform = ({ setType,
 
   return (
     <div className="add-subscription">
-      <h3>Agregar Suscripciones</h3>
+      <h3>Agregar Subscripciones</h3>
       <form onSubmit={handleSubs}>
         <p>Servicio</p>
         <select onChange={e => setType(e.target.value)} value={type}>
@@ -67,7 +67,7 @@ const FormAddPlatform = ({ setType,
           <option value="primeVideo">Prime Videos</option>
           <option value="spotify">Spotify</option>
         </select>
-        <p>Cantidad</p>
+        <p>Costo</p>
         <input type="number" placeholder="Costo $" onChange={e => setPrice(e.target.value)} value={price} />
         {editId != "" ? <input type="submit" value="Guardar" />
           : <input type="submit" value="Agregar" />}
